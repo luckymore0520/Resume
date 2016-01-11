@@ -3,8 +3,8 @@ module.exports = {
         "internship": "(internship)"
     },
     skill_type: {
-        "frontend": "Frontend Development",
-        "backend": "Backend Development",
+        "frontend": "iOS Development",
+        "backend": "iOS Development",
         "miscellaneous": "Miscellaneous"
     },
     education_type: {
