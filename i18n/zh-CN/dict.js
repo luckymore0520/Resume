@@ -8,7 +8,8 @@ module.exports = {
         "miscellaneous": "其他"
     },
     education_type: {
-        "undergraduate": "（本科）"
+        "undergraduate": "（本科）",
+        "graduate":" (硕士) "
     },
     link_type: {
         "zhihu": "知乎",
@@ -40,6 +41,7 @@ module.exports = {
         demo: "Demo"
     },
     project_type: {
-        "personal": "个人项目"
+        "personal": "个人项目",
+        "team": "创业项目"
     }
 };

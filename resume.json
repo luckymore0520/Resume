@@ -40,9 +40,20 @@
     "end": "2016",
     "honor": [
       "2012 - 2013 **廖式奖学金**",
-      "2013 - 2014 **郑钢奖学金**"
+      "2013 - 2014 **郑钢奖学金**",
+      "2014        **花旗杯金融与信息技术应用大赛一等奖**",
+      "2016        **南京大学优秀毕业生**"
     ]
-  }],
+  },
+    {
+    "type": "graduate",
+    "name": "南京大学",
+    "major": "软件工程",
+    "start": "2016",
+    "end": "2018",
+    "honor":[]
+    }
+  ],
   "language": [{
     "type": "english",
     "certificate": [{
@@ -57,7 +68,7 @@
     "description": [
       "熟练使用谷歌进行英文检索，自行解决问题",
       "流畅阅读英文专业书籍、文档",
-      "能够在Stack Overflow等社区正常进行英文交流"
+      "能够在 Stack Overflow、Github 等社区正常进行英文交流"
     ]
   }],
   "experience": [{
@@ -68,11 +79,12 @@
     "end": "2014.10",
     "name": "iOS 开发",
     "description": [
-      "自学iOS，独立完成第一个App－掌上南大的开发，并提交AppStore，成功上架",
+      "自学 iOS 开发，在一位有一定工作经验的 iOS 开发者的远程指导下完成第一个 App－掌上南大的开发，并提交AppStore，成功上架",
       "使用 `Storyboard` + `Autolayout` 完成界面开发",
-      "在model层使用google的 `Protocol Buffers` 框架",
-      "在完成第一个项目的基础上，后续开发了包括掌上南理工、掌上南师在内的17所学校的App，并成功上架（使用 `git` 进行代码管理)",
-      "对18个App进行后续维护，优化"
+      "在 model 层使用google `Protocol Buffers` 技术",
+      "在完成第一个项目的基础上，后续开发了包括掌上南理工、掌上南师在内的17所学校的 App ，并成功上架（使用 `git` 进行代码管理)",
+      "对18个 App 进行后续维护，优化",
+      "所有18个应用的开发周期大约为2个月"
     ],
     "stack": ["iOS", "Objective-C", "git", "Protocol Buffer"]
   }, {
@@ -83,8 +95,9 @@
     "end": "2015-2",
     "name": "iOS开发",
     "description": [
-      "独立完成App-`研大大` iOS端开发",
-      "使用了 `AFNetworking`  `SDWebImage`  `MWPhotoBrowser`  `MJExtention` 等流行开源框架",
+      "首次独立完成 App ——`研大大` iOS端开发",
+      "项目涉及到了自定义相机、自定义相册、自定义图片浏览器（仿网易新闻）、图片音乐的存储、音乐视频的播放等模块",
+      "使用了 `AFNetworking`、`SDWebImage`、`MWPhotoBrowser` 等流行开源框架",
       "敏捷开发，两周完成项目开发，一周修改bug以及性能优化"
     ],
     "stack": ["iOS", "Objective", "SDWebImage", "MWPhotoBrowser"]
@@ -99,11 +112,12 @@
       "完成视频聊天App—— `ChatGame` 所有UI层的重构，使用 `Xib` + `Autolayout` 替代纯代码手写的UI, 易于后期维护和适配",
       "完成每周相关新增功能和需求",
       "完成项目的埋点工作，实现一套利用 `Aspect` 将埋点与原有逻辑分离的埋点方案",
-      "完成应用新版本的核心需求——视频卡通画，将视频与可动画的卡通人物相结合",
+      "完成应用新版本的核心需求——视频卡通化，将视频与可动画的卡通人物相结合",
       "在原先C2C单聊的基础上实现了群组聊天",
-      "修改应用Bug，提高应用性能"
+      "相比之前的应用，该应用复杂度明显提高，尤其是在视频聊天部分的逻辑相当复杂，很好地锻炼了我处理复杂逻辑的能力，也更好地理解了设计模式在客户端开发中的重要意义",
+      "修改应用Bug，提高应用性能， 值得一提的是，在公司的 Bug 平台上， 由我个人解决的 Bug 大致占了所有解决数的一半，简而言之自认有比较强的解决问题、发现问题的能力"
     ],
-    "stack": ["iOS", "Objective", "Xib", "Autolayout"]
+    "stack": ["iOS", "Objective", "Xib", "Autolayout", "Debug"]
   },{
     "type": "project",
     "techtype": "iOS & Android",
@@ -114,33 +128,55 @@
     "description": [
       "一款基于iOS以及Android平台的颜色小游戏，由一个三人小团队完成，本人负责主要编码工作",
       "使用 `MVC` 架构，iOS方面使用 `Size Classes` + `Autolayout` 完成界面搭建，支持各种尺寸的iOS设备，支持横竖屏切换",
-      "加入友盟统计，支持Game Center，上线至今错误率为0%"
+      "加入友盟统计，支持Game Center，上线至今错误率为0%",
+      "这是一次闪电式的开发，从项目的设计到最终的编码以及上线均在一周内完成， 然而依旧注重代码质量， 所有的提交均通过 `Pull Request` 由团队成员 Review 过后方可入库， 从而保障了项目的稳定性",
+      "项目虽小， 但是从起初的设计上就严格遵守了面向对象的编程范式， 从而具有很好的可读性"
     ],
     "stack": ["iOS", "Objective-C"]
-  }, {
+  },
+  {
     "type": "project",
     "techtype": "iOS",
     "project_type": "personal",
+    "name": "GreenTea",
+    "source": "https://github.com/luckymore0520/GreenTea",
+    "demo": "https://github.com/luckymore0520/GreenTea",
+    "description": [
+      "毕设项目，一款完整的奶茶集点卡应用",
+      "基于 Swift 2.3 开发， 使用 Sketch 完成 UI 设计， 从需求分析、项目设计到最终的实现均有个人独立完成",
+      "使用 LeanCloud 的数据存储服务来替代服务器的开发",
+      "尝试使用 `面向协议编程的MVVM` 模式来利用协议扩展的新特性简化 UI 渲染的逻辑， 给 Controller 瘦身",
+      "尝试使用协议扩展替代集成与组合降低代码耦合度"
+    ],
+    "stack": ["iOS", "Swift" , "设计"]
+  },
+
+
+  {
+    "type": "project",
+    "techtype": "iOS",
+    "project_type": "team",
     "name": "OK帮",
     "description": [
-      "外包项目，众包平台（http://ok-bang.com/）的iOS端开发",
+      "第一个实际上的外包项目，众包平台（http://ok-bang.com/）的iOS端开发",
       "使用 `CocoaPods` 完成第三方库管理",
       "自己对 `AFNetworking` 完成了一层封装，用于处理网络请求",
-      "利用APNS在线推送机制基本实现了实时聊天",
-      "接入Ping++，支持支付功能"
+      "利用 APNS 在线推送机制基本实现了简单实时聊天",
+      "接入 Ping++ ，支持支付功能"
     ],
     "stack": ["iOS", "CocoaPods"]
   },{
     "type": "project",
     "techtype": "iOS",
-    "project_type": "personal",
+    "project_type": "team",
     "name": "米盒",
     "description": [
       "学生创业项目，（http://micourse.org/）的iOS端开发",
       "第一次使用 `Swift` 进行实际项目的开发",
-      "使用了`Kingfisher`,`Alamofire`,`SwiftyJSON`等Swift框架搭配一些Objective-C开发的UI组件进行开发"
+      "使用了 `Kingfisher`、`Alamofire`、`SwiftyJSON` 等主流Swift框架搭配一些Objective-C开发的UI组件进行开发",
+      "在完成 1.0 的开发不就后， 继续带队进行 2.0 的开发， 基于 Swift 2.3， 利用协议扩展的新特性尝试使用面向协议范式进行编程"
     ],
-    "stack": ["iOS", "Swift"]
+    "stack": ["iOS", "Swift" , "POP"]
   }],
   "skills": [{
     "type": "backend",
@@ -148,12 +184,14 @@
       "summary": "`Objective-C`",
       "description": [
         "熟练使用 `Objective-C` 编写 `iOS `应用",
+        "熟练使用 `Xib` 以及 `Storyboard` 进行 UI 上的编写， 典型 IB 党， 当然并不排斥使用一些开源的框架来进行约束的代码配置",
         "理解 `Objective-C` 内存管理机制",
         "理解 `Objective-C` runtime特性",
         "熟练使用 `块` `协议` `分类` 等 `Objective-C` 特性",
         "理解 `Objective-C` 线程机制，熟练使用GCD",
+        "熟练使用 `Instruments` 进行内存、效率相关的调试，掌握基本的利用 `Xcode` 的调试技巧",
         "熟练使用系统相关API，并及时学习新特性"
-      ]
+        ]
     }]
   },
     {
@@ -161,41 +199,51 @@
       "item": [{
         "summary": "`Swift`",
         "description": [
-          "理解并尝试使用Swift语言一些新的特性",
-          "对函数式编程范式有一定理解，在实际项目中尝试使用函数式编程的思想完成一些功能的实现",
-          "了解并能区分Objective-C和Swift的各种区别，在实际项目中尝试用Swift的思想来完成项目",
+          "理解并尝试使用 Swift 语言一些新的特性",
+          "对函数式编程范式有一定理解和尝试，在实际项目中尝试使用函数式编程的思想完成一些功能的实现",
+          "了解并能区分 Objective-C 和 Swift 的各种区别，在实际项目中尽量尝试用 Swift 的思想来完成项目",
           "在实际项目中尝试多使用结构体、枚举以及面向协议的编程方式",
-          "使用Swift完成过一些小的实际项目"
+          "使用 Swift 完成过一些小的实际项目， 也以团队的形式投入过正式的创业项目"
         ]
       },
     {
       "summary": "`Xcode`",
       "description": [
-        "熟练使用Xcode进行iOS项目开发",
-        "熟练利用Instruments进行项目调试",
+        "熟练使用 Xcode 进行 iOS 项目开发",
+        "熟练利用 Instruments 进行项目调试",
         "理解并熟练掌握应用发布流程、证书机制",
-        "尤其熟悉使用Xcode完成应用的国际化的相关流程",
+        "尤其熟悉使用 Xcode 完成应用的国际化的相关流程",
         "有使用Xcode插件的习惯"
       ]
     }, {
       "summary": "`Git`",
       "description": [
-        "熟练使用git基本命令，了解团队开发相关git使用流程",
-        "了解并使用过Git Flow工作方法",
-        "熟练使用Source Tree图形化Git工具"
+        "熟练使用 git 基本命令，了解团队开发相关 git 使用流程",
+        "了解并使用过 Git Flow 工作方法",
+        "熟练使用 Source Tree 图形化 Git 工具"
       ]
     }, {
       "summary": "`React Native`",
       "description": [
-        "阅读并研究过React Native的相关源码并加以整理，理解其桥通讯机制、模块化设计以及消息传递机制",
-        "懂得使用React Native相关API来完成应用的开发"
+        "阅读并研究过 React Native 的相关源码并加以整理，理解其桥通讯机制、模块化设计以及消息传递机制",
+        "基本了解如何使用 React Native 相关 API 来完成简单应用的开发"
       ]
-    }, {
-      "summary": "`iOS项目第三方框架``",
+    },
+    {
+      "summary": "`Sketch`",
+      "description": [
+        "有一定的设计基础， 懂得 Sketch 的基本操作",
+        "习惯直接从美术那里拿 Sketch 源文件来完成 UI 的开发而不需要额外切图"
+      ]
+
+    },
+
+    {
+      "summary": "`iOS项目第三方框架`",
       "description": [
         "在项目中习惯使用CocoaPods完成第三方依赖，同时也是用CocoaPods制作并发布自己的第三方库",
-        "在项目中使用过AFNetworking,SDWebImage,MWPhotoBrowser,MJExtention,POP等第三方Objective-C库",
-        "在项目中使用过Alamofire,Kingfisher,SwiftyJSON等第三方Swift库",
+        "在项目中使用过 AFNetworking、SDWebImage, MWPhotoBrowser、YYModel、POP、Mansory 等第三方 Objective-C 库",
+        "在项目中使用过 Alamofire、Kingfisher、SwiftyJSON、Carthage 等第三方Swift库",
         "有丰富的集成一些第三方开放平台的经验",
         "使用第三方API时习惯在外面封装一层方便日后变更而不影响自身业务代码逻辑"
       ]
@@ -205,12 +253,14 @@
     "type": "miscellaneous",
     "item": [
       "三年 `Mac` 使用经验，熟悉常用命令与配置，熟练使用命令行",
-      "熟悉 `Python`，能够完成简单的Python脚本编写，使用过Django搭建过Web应用",
-      "习惯使用Sketch等设计软件，对UI以及交互有自己的理解，正在自主学习设计中",
-      "熟练使用`Java`语言编写代码，编写过一些Java桌面程序、游戏",
-      "对`Android`开发有所涉猎，开发过几款安卓应用并发布市场",
+      "本科期间学习过包括操作系统、网络、数据结构、数据库等基础课程，有一定的计算机基础",
+      "熟悉 `Python`，能够完成简单的 Python 脚本编写，使用过 Django、Flask 搭建过 Web 应用",
+      "熟悉基本的前端相关知识和工具， 自学前端中",
+      "习惯使用 Sketch 等设计软件，对UI以及交互有自己的理解，正在自主学习设计中",
+      "熟练使用 `Java` 语言编写代码，编写过一些 Java 桌面程序、游戏",
+      "对 `Android` 开发有所涉猎，开发过几款安卓应用并发布市场",
       "习惯使用订阅的方式来关注圈内技术人员的博客，获取新知识",
-      "习惯使用Pocket的方式来收藏干货，并整理"
+      "习惯使用 Pocket 的方式来收藏干货，并整理"
     ]
   }]
 }
