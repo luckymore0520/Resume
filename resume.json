@@ -242,7 +242,7 @@
       "summary": "`iOS项目第三方框架`",
       "description": [
         "在项目中习惯使用CocoaPods完成第三方依赖，同时也是用CocoaPods制作并发布自己的第三方库",
-        "在项目中使用过 AFNetworking、SDWebImage, MWPhotoBrowser、YYModel、POP、Mansory 等第三方 Objective-C 库",
+        "在项目中使用过 AFNetworking、SDWebImage, MWPhotoBrowser、YYModel、POP、masonry 等第三方 Objective-C 库",
         "在项目中使用过 Alamofire、Kingfisher、SwiftyJSON、Carthage 等第三方Swift库",
         "有丰富的集成一些第三方开放平台的经验",
         "使用第三方API时习惯在外面封装一层方便日后变更而不影响自身业务代码逻辑"
