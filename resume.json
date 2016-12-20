@@ -71,36 +71,22 @@
       "能够在 Stack Overflow、Github 等社区正常进行英文交流"
     ]
   }],
-  "experience": [{
-     "type": "internship",
-    "techtype": "iOS",
-    "place": "掌上大学团队",
-    "start": "2014.05",
-    "end": "2014.10",
-    "name": "iOS 开发",
-    "description": [
-      "自学 iOS 开发，在一位有一定工作经验的 iOS 开发者的远程指导下完成第一个 App－掌上南大的开发，并提交AppStore，成功上架",
-      "使用 `Storyboard` + `Autolayout` 完成界面开发",
-      "在 model 层使用google `Protocol Buffers` 技术",
-      "在完成第一个项目的基础上，后续开发了包括掌上南理工、掌上南师在内的17所学校的 App ，并成功上架（使用 `git` 进行代码管理)",
-      "对18个 App 进行后续维护，优化",
-      "所有18个应用的开发周期大约为2个月"
-    ],
-    "stack": ["iOS", "Objective-C", "git", "Protocol Buffer"]
-  }, {
+  "experience": [ {
     "type": "internship",
-    "techtype": "iOS",
-    "place": "福猫科技（原掌上大学团队）",
-    "start": "2015-1",
-    "end": "2015-2",
-    "name": "iOS开发",
+    "techtype": "项目经理",
+    "place": "南京一可米互联网有限公司",
+    "start": "2016-9",
+    "end": "至今",
+    "name": "项目经理",
     "description": [
-      "首次独立完成 App ——`研大大` iOS端开发",
-      "项目涉及到了自定义相机、自定义相册、自定义图片浏览器（仿网易新闻）、图片音乐的存储、音乐视频的播放等模块",
-      "使用了 `AFNetworking`、`SDWebImage`、`MWPhotoBrowser` 等流行开源框架",
-      "敏捷开发，两周完成项目开发，一周修改bug以及性能优化"
+      "负责整个技术团队的项目管理，包括需求对接、项目计划、任务分配、进度评审、产品验证发布等工作。整个开发资源，保证所有开发任务能够顺利完成。",
+      "负责整个技术团队和其他团队的交流与合作",
+      "负责公司对外合作的相关事宜与技术对接。",
+      "负责一些产品方向和思路的确定和决策",
+      "负责产品的 QA 工作",
+      "主导完成了另外一个项目——course+，从产品设计到最终的实现、上线、盈利。个人除了带领团队在20天内完成所有的开发任务外，还担任了原型设计、UI设计和服务器接口的设计和实现。"
     ],
-    "stack": ["iOS", "Objective", "SDWebImage", "MWPhotoBrowser"]
+    "stack": ["项目管理", "QA", "产品设计"]
   }, {
     "type": "internship",
     "techtype": "iOS",
@@ -118,7 +104,39 @@
       "修改应用Bug，提高应用性能， 值得一提的是，在公司的 Bug 平台上， 由我个人解决的 Bug 大致占了所有解决数的一半，简而言之自认有比较强的解决问题、发现问题的能力"
     ],
     "stack": ["iOS", "Objective", "Xib", "Autolayout", "Debug"]
-  },{
+  }, {
+    "type": "internship",
+    "techtype": "iOS",
+    "place": "福猫科技（原掌上大学团队）",
+    "start": "2015-1",
+    "end": "2015-2",
+    "name": "iOS开发",
+    "description": [
+      "首次独立完成 App ——`研大大` iOS端开发",
+      "项目涉及到了自定义相机、自定义相册、自定义图片浏览器（仿网易新闻）、图片音乐的存储、音乐视频的播放等模块",
+      "使用了 `AFNetworking`、`SDWebImage`、`MWPhotoBrowser` 等流行开源框架",
+      "敏捷开发，两周完成项目开发，一周修改bug以及性能优化"
+    ],
+    "stack": ["iOS", "Objective", "SDWebImage", "MWPhotoBrowser"]
+  },
+  {
+     "type": "internship",
+    "techtype": "iOS",
+    "place": "掌上大学团队",
+    "start": "2014.05",
+    "end": "2014.10",
+    "name": "iOS 开发",
+    "description": [
+      "自学 iOS 开发，在一位有一定工作经验的 iOS 开发者的远程指导下完成第一个 App－掌上南大的开发，并提交AppStore，成功上架",
+      "使用 `Storyboard` + `Autolayout` 完成界面开发",
+      "在 model 层使用google `Protocol Buffers` 技术",
+      "在完成第一个项目的基础上，后续开发了包括掌上南理工、掌上南师在内的17所学校的 App ，并成功上架（使用 `git` 进行代码管理)",
+      "对18个 App 进行后续维护，优化",
+      "所有18个应用的开发周期大约为2个月"
+    ],
+    "stack": ["iOS", "Objective-C", "git", "Protocol Buffer"]
+  },
+  {
     "type": "project",
     "techtype": "iOS & Android",
     "project_type": "personal",
@@ -126,8 +144,8 @@
     "source": "https://github.com/Cee/ColorMix",
     "demo": "http://colormix.cee.moe/",
     "description": [
-      "一款基于iOS以及Android平台的颜色小游戏，由一个三人小团队完成，本人负责主要编码工作",
-      "使用 `MVC` 架构，iOS方面使用 `Size Classes` + `Autolayout` 完成界面搭建，支持各种尺寸的iOS设备，支持横竖屏切换",
+      "一款基于 iOS 以及 Android 平台的颜色小游戏，由一个三人小团队完成，本人负责主要编码工作",
+      "使用 `MVC` 架构，iOS 方面使用 `Size Classes` + `Autolayout` 完成界面搭建，支持各种尺寸的iOS设备，支持横竖屏切换",
       "加入友盟统计，支持Game Center，上线至今错误率为0%",
       "这是一次闪电式的开发，从项目的设计到最终的编码以及上线均在一周内完成， 然而依旧注重代码质量， 所有的提交均通过 `Pull Request` 由团队成员 Review 过后方可入库， 从而保障了项目的稳定性",
       "项目虽小， 但是从起初的设计上就严格遵守了面向对象的编程范式， 从而具有很好的可读性"
@@ -158,7 +176,7 @@
     "project_type": "team",
     "name": "OK帮",
     "description": [
-      "第一个实际上的外包项目，众包平台（http://ok-bang.com/）的iOS端开发",
+      "第一个实际上的外包项目，众包平台（http://ok-bang.com/）的 iOS 端开发",
       "使用 `CocoaPods` 完成第三方库管理",
       "自己对 `AFNetworking` 完成了一层封装，用于处理网络请求",
       "利用 APNS 在线推送机制基本实现了简单实时聊天",
@@ -171,7 +189,7 @@
     "project_type": "team",
     "name": "米盒",
     "description": [
-      "学生创业项目，（http://micourse.org/）的iOS端开发",
+      "学生创业项目，（http://micourse.org/）的 iOS 端开发",
       "第一次使用 `Swift` 进行实际项目的开发",
       "使用了 `Kingfisher`、`Alamofire`、`SwiftyJSON` 等主流Swift框架搭配一些Objective-C开发的UI组件进行开发",
       "在完成 1.0 的开发不就后， 继续带队进行 2.0 的开发， 基于 Swift 2.3， 利用协议扩展的新特性尝试使用面向协议范式进行编程"
