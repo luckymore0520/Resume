@@ -4,7 +4,7 @@ module.exports = {
     },
     skill_type: {
         "frontend": "iOS开发",
-        "backend": "iOS开发",
+        "backend": "其他技术栈",
         "miscellaneous": "其他"
     },
     education_type: {
@@ -42,6 +42,7 @@ module.exports = {
     },
     project_type: {
         "personal": "个人项目",
-        "team": "创业项目"
+        "team": "创业项目",
+        "work": "外包项目",
     }
 };
